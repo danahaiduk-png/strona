@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Rezerwacja - Salon Urody</title>
+  <link rel="stylesheet" href="/public/style.css">
+  <script src="/public/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Salon Urody</h1>
+    <nav>
+     <a href="index.html">Strona główna</a>
+      <a href="services.html">Usługi</a>
+      <a href="booking.html">Rezerwacja</a>
+      <a href="clients.html">Klienci</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Zarezerwuj wizytę</h2>
+    <form id="bookingForm" action="booking.html" method="POST">
+      <input type="text" name="name" placeholder="Imię i nazwisko"><br><br>
+      <input type="text" name="phone" placeholder="Telefon"><br><br>
+      <select name="service">
+        <option value="">Wybierz usługę</option>
+        <option value="manicure">Manicure</option>
+        <option value="eyelashes">Rzęsy</option>
+        <option value="cosmetology">Kosmetologia</option>
+      </select><br><br>
+      <input type="submit" value="Zarezerwuj">
+    </form>
+  </main>
+  <footer>
+    &copy; 2026 Salon Urody
+  </footer>
+</body>
+</html>
