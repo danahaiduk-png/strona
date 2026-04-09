@@ -1,5 +1,5 @@
 # Dokumentacja projektu „Salon Urody”
-## H2 Wykonawcy: Anastasia, Bohdana 
+## H2 Wykonawca:Bohdana Haiduk
 ### 1. Cel projektu
 
 Celem projektu jest stworzenie estetycznej strony internetowej dla salonu urody z funkcjami rezerwacji usług oraz zarządzania klientami. Projekt jest w fazie rozwoju i obecnie zawiera tylko podstawową strukturę frontendu i wstępne szkice funkcjonalności backendu.
